@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.InventarioGyssa.controller.LaptopsController">
+   <children>
+      <ImageView fitHeight="59.0" fitWidth="1250.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Fondo12.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="75.0" text="Laptops">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TableView layoutX="27.0" layoutY="137.0" prefHeight="200.0" prefWidth="1183.0">
+        <columns>
+          <TableColumn prefWidth="64.0" text="ID Laptop" />
+          <TableColumn prefWidth="86.0" text="Marca " />
+            <TableColumn prefWidth="86.0" text="Modelo" />
+            <TableColumn prefWidth="86.0" text="Procesador" />
+            <TableColumn prefWidth="86.0" text="Service Tag" />
+            <TableColumn prefWidth="86.0" text="Placa Gyssa" />
+            <TableColumn prefWidth="86.0" text="S.O" />
+            <TableColumn prefWidth="86.0" text="Tipo " />
+            <TableColumn prefWidth="76.0" text="Ram" />
+            <TableColumn prefWidth="74.0" text="Disco" />
+            <TableColumn prefWidth="108.0" text="Inicio De Garantia" />
+            <TableColumn prefWidth="102.0" text="Fin De Garantia" />
+            <TableColumn prefWidth="86.0" text="Observaciones" />
+            <TableColumn prefWidth="70.0" text="ID Personal" />
+        </columns>
+      </TableView>
+      <Label layoutX="47.0" layoutY="354.0" prefHeight="30.0" prefWidth="142.0" text="Añadir Laptop" textFill="#57eea8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="445.0" text="Marca" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="475.0" text="Modelo" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="505.0" text="Procesador" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="532.0" text="Service Tag" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="563.0" text="Placa Gyssa" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="471.0" layoutY="478.0" />
+      <Label layoutX="352.0" layoutY="593.0" text="S. O" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="712.0" layoutY="575.0" text="Tipo" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="771.0" layoutY="508.0" prefHeight="25.0" prefWidth="90.0" />
+      <Label layoutX="712.0" layoutY="503.0" text="Ram" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="713.0" layoutY="539.0" text="Disco" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="713.0" layoutY="418.0" text="Inicio de Garantia" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="712.0" layoutY="451.0" text="Fin de Garantia" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="912.0" layoutY="503.0" text="Observaciones" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="912.0" layoutY="539.0" text="ID Personal" textFill="#66a2f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="1061.0" layoutY="542.0" prefWidth="150.0" />
+      <DatePicker layoutX="899.0" layoutY="421.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="84.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/png/029-video-conference.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="335.0" layoutY="388.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" text="Añadir " />
+      <Button layoutX="413.0" layoutY="388.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" text="Modificar" />
+      <Button layoutX="491.0" layoutY="388.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" text="Eliminar" />
+      <Button layoutX="569.0" layoutY="388.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" text="Reporte" />
+      <TextField layoutX="471.0" layoutY="508.0" />
+      <TextField layoutX="471.0" layoutY="448.0" />
+      <TextField layoutX="471.0" layoutY="535.0" />
+      <TextField layoutX="471.0" layoutY="565.0" />
+      <TextField layoutX="471.0" layoutY="596.0" />
+      <DatePicker layoutX="899.0" layoutY="454.0" />
+      <TextField layoutX="771.0" layoutY="541.0" prefHeight="25.0" prefWidth="90.0" />
+      <TextField layoutX="1061.0" layoutY="506.0" />
+      <TextField layoutX="771.0" layoutY="581.0" />
+      <Button layoutX="1117.0" layoutY="85.0" mnemonicParsing="false" onAction="#MenuPrincipal" text="Menu Principal" />
+   </children>
+</AnchorPane>
